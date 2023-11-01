@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>341</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::TabFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Whisper</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>261</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtonSelecionePasta">
+      <property name="text">
+       <string>Selecione a pasta de destino</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Link:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditLink"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonBaixar">
+        <property name="text">
+         <string>Baixar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonSelecioneArquivo">
+      <property name="text">
+       <string>Selecione o arquivo</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonTranscrever">
+      <property name="text">
+       <string>Transcrever</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonTraduzir">
+      <property name="text">
+       <string>Traduzir (pt)</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtonSelecionePasta</tabstop>
+  <tabstop>pushButtonSelecioneArquivo</tabstop>
+  <tabstop>pushButtonTranscrever</tabstop>
+  <tabstop>pushButtonTraduzir</tabstop>
+  <tabstop>lineEditLink</tabstop>
+  <tabstop>pushButtonBaixar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
